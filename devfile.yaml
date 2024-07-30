@@ -1,0 +1,10 @@
+schemaVersion: 2.2.0
+metadata:
+  name: blueprint
+parent:
+  uri: https://raw.githubusercontent.com/ahill-omf/final-ancestor/main/devfile.yaml
+projects:
+  - name: final-blueprint
+    git:
+      remotes:
+        origin: "https://github.com/ahill-omf/final-blueprint.git"
