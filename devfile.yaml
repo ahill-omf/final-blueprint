@@ -4,6 +4,10 @@ metadata:
 parent:
   uri: https://raw.githubusercontent.com/ahill-omf/final-ancestor/main/devfile.yaml
 projects:
+  - name: final-ancestor
+    git:
+      remotes:
+        origin: "https://github.com/ahill-omf/final-ancestor.git"
   - name: final-blueprint
     git:
       remotes:
