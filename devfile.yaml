@@ -17,3 +17,6 @@ commands:
         kind: build
         isDefault: false
       component: tooling-container
+events:
+  postStart:
+    - init-workspace
