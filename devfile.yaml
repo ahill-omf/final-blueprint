@@ -8,3 +8,12 @@ projects:
     git:
       remotes:
         origin: "https://github.com/ahill-omf/final-blueprint.git"
+commands:
+  - id: init-workspace
+    exec:
+      label: "Clone ancestor repo"
+      commandLine: "/usr/local/bin/ansible-playbook $PROJECT_SOURCE/.init/clone_ancestor.yml"
+      group:
+        kind: build
+        isDefault: false
+      component: tooling-container
