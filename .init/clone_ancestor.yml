@@ -1,0 +1,13 @@
+---
+- name: Clone ancestor repository
+  hosts: localhost
+  connection: local
+  gather_facts: false
+  no_log: false
+  tasks:
+    - name: Git clone ancestor repo
+      ansible.builtin.git:
+        repo: https://github.com/ahill-omf/final-ancestor.git
+        dest: /projects/final-ancestor
+        single_branch: yes
+        version: main

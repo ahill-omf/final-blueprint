@@ -8,7 +8,3 @@ projects:
     git:
       remotes:
         origin: "https://github.com/ahill-omf/final-blueprint.git"
-  - name: final-ancestor
-    git:
-      remotes:
-        origin: "https://github.com/ahill-omf/final-ancestor.git"
